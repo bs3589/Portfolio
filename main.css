@@ -18,6 +18,8 @@
     height: 600px;
     background: url(images/atl-header.jpg) no-repeat center center scroll;
     background-attachment: fixed;
+    /*background-size:  50vw;*/
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -94,7 +96,7 @@
 .img-circle {
 	width: 150px;
     height: 150px;
-    
+
 }
 
 .projects-container {

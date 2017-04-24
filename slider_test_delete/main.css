@@ -1,0 +1,264 @@
+
+
+/*fade in*/
+@keyframes layer1Anim {
+    0%{opacity:0;}
+    10%{opacity:1;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer2Anim {
+    0%{opacity:0;}
+    10%{opacity:1;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer3Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:1;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+
+@keyframes layer4Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:0;}
+    30%{opacity:1;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer5Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:1;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer6Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:1;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer7Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:1;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer8Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:1;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer9Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:1;}
+    90%{opacity:0;}
+    100%{opacity:0;}
+}
+@keyframes layer10Anim {
+    0%{opacity:0;}
+    10%{opacity:0;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes layer11Anim {
+    0%{opacity:1;}
+    10%{opacity:1;}
+    20%{opacity:0;}
+    30%{opacity:0;}
+    40%{opacity:0;}
+    50%{opacity:0;}
+    60%{opacity:0;}
+    70%{opacity:0;}
+    80%{opacity:0;}
+    90%{opacity:0;}
+    100%{opacity:1;}
+}
+
+
+/*slide in*/
+/*@keyframes layer2Anim{
+    0%{left:-100%;}
+    17%{left:-100%;}
+    33%{left:0;}
+    50%{left:0;}
+    67%{left:-100%;}
+    100%{left:-100%;}
+}
+@keyframes layer3Anim{
+    0%{left:100%;}
+    50%{left:100%;}
+    67%{left:0;}
+    83%{left:0;}
+    100%{left:100%}
+}*/
+
+
+.slideShow {
+    position: relative;
+}
+.placeHolder {
+    width: 100%;
+    visibility: hidden;
+}
+.layer0, .layer1, .layer2, .layer3, .layer4, .layer5, .layer6, .layer7, .layer8, .layer9, .layer10, .layer11 {
+    position: absolute;
+    /*width: 100%;
+    height: 100%;*/  
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px grey solid;
+}
+.layer0 {
+    background-color: grey;
+    
+    height: 100px;
+}
+.layer1 {
+    background-image: url(imgs/html-icon.jpg);
+    animation: layer1Anim 20s infinite;
+    height: 100px;
+}
+.layer2 {
+    background-image: url(imgs/css-icon.jpg);
+    animation: layer2Anim 20s infinite;
+    height: 100px;
+}
+.layer3 {
+    background-image: url(imgs/js-icon.jpg);
+    animation: layer3Anim 20s infinite;
+    height: 100px;
+}
+.layer4 {
+    background-image: url(imgs/jquery-icon.jpg);
+    animation: layer4Anim 20s infinite;
+    height: 100px;
+}
+.layer5 {
+    background-image: url(imgs/angular-icon.jpg);
+    animation: layer5Anim 20s infinite;
+    height: 100px;
+}
+.layer6 {
+    background-image: url(imgs/node-icon.jpg);
+    animation: layer6Anim 20s infinite;
+    height: 100px;
+}
+.layer7 {
+    background-image: url(imgs/sass-icon.jpg);
+    animation: layer7Anim 20s infinite;
+    height: 100px;
+}
+.layer8 {
+    background-image: url(imgs/ruby-icon.jpg);
+    animation: layer8Anim 20s infinite;
+    height: 100px;
+}
+.layer9 {
+    background-image: url(imgs/git-icon.jpg);
+    animation: layer9Anim 20s infinite;
+    height: 100px;
+}
+.layer10 {
+    background-image: url(imgs/mongo-icon.jpg);
+    animation: layer10Anim 20s infinite;
+    height: 100px;
+}
+.layer11 {
+    background-image: url(imgs/mongo-icon.jpg);
+    animation: layer10Anim 20s infinite;
+    height: 100px;
+}
+.slideOverlay {
+    background-image: url('http://www.planwallpaper.com/static/images/824183-green-wallpaper.jpg');
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.slideOverlay p {
+    position: relative;
+    font-size: 6vw;
+    color: #fff;
+    text-shadow: 3px 3px 6px #000;
+    text-align: center;
+    top: 30%;
+}
