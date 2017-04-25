@@ -76,8 +76,10 @@
 .divider {
 	text-align: center;
 	background-color: #282828;
-	color: grey;
+	/*background-color: rgba(40,40,40,0.5);*/
+	/*color: grey;*/
 	height: 40px;
+	
 
 }
 
@@ -144,6 +146,11 @@
 
 
 
+/*Services*/
+
+.bg-primary {
+    height: 300px;
+}
 
 
 /***Footer***/

@@ -184,6 +184,7 @@
     background-repeat: no-repeat;
     border-radius: 15px;
     border: 2px grey solid;
+    margin-left: 10px;
 }
 .layer0 {
     background-color: grey;
