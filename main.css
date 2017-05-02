@@ -157,12 +157,16 @@
 
 footer {
     padding: 70px 0;
-    background-color: rgba(40,40,40,1);
+    background-color: #282828;
     color: rgba(255,255,255,0.7);
     font-family: 'Mitr', sans-serif;
 }
 
-
+.social-icons {
+    height: 50px;
+    width: 50px;
+    
+}
 
 
 
